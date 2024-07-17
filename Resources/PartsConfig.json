@@ -1,0 +1,98 @@
+[
+	{
+        "deviceName": "安装座固定螺栓12",
+        "dependencies": []
+    },
+	{
+        "deviceName": "安装座固定螺栓13",
+        "dependencies": []
+    },
+	{
+        "deviceName": "螺栓8",
+        "dependencies": []
+    },
+	{
+        "deviceName": "螺栓9",
+        "dependencies": []
+    },
+	{
+        "deviceName": "螺栓6",
+        "dependencies": []
+    },
+	{
+        "deviceName": "螺栓7",
+        "dependencies": []
+    },
+	{
+        "deviceName": "风管固定卡扣1",
+        "dependencies": []
+    },
+	{
+        "deviceName": "风管固定卡扣2",
+        "dependencies": []
+    },
+	{
+        "deviceName": "碳滑板铝托架GB1",
+        "dependencies": []
+    },
+	{
+        "deviceName": "碳滑板铝托架GB2",
+        "dependencies": []
+    },
+	{
+        "deviceName": "碳滑板安装座1",
+        "dependencies": ["安装座固定螺栓12"]
+    },
+	{
+        "deviceName": "碳滑板安装座2",
+        "dependencies": ["安装座固定螺栓13"]
+    },
+	{
+        "deviceName": "螺栓1",
+        "dependencies": ["碳滑板安装座1"]
+    },
+	{
+        "deviceName": "螺栓2",
+        "dependencies": ["碳滑板安装座1"]
+    },
+	{
+        "deviceName": "螺栓3",
+        "dependencies": ["碳滑板安装座2"]
+    },
+	{
+        "deviceName": "螺栓4",
+        "dependencies": ["碳滑板安装座2"]
+    },
+	{
+        "deviceName": "风管",
+        "dependencies": ["风管固定卡扣1", "风管固定卡扣2"]
+    },
+	{
+        "deviceName": "碳滑板铝缓冲器1",
+        "dependencies": ["螺栓1", "螺栓2"]
+    },
+	{
+        "deviceName": "碳滑板铝缓冲器2",
+        "dependencies": ["螺栓3", "螺栓4"]
+    },
+	{
+        "deviceName": "回流线固定片1",
+        "dependencies": ["螺栓8", "螺栓9"]
+    },
+    {
+        "deviceName": "回流线固定片2",
+        "dependencies": ["螺栓6", "螺栓7"]
+    },
+    {
+        "deviceName": "风管接头",
+        "dependencies": ["风管"]
+    },
+    {
+        "deviceName": "碳滑板",
+        "dependencies": ["碳滑板铝托架GB1", "碳滑板铝缓冲器2"]
+    },
+    {
+        "deviceName": "碳滑板铝托架",
+        "dependencies": ["碳滑板铝缓冲器1", "碳滑板铝缓冲器2", "回流线固定片1", "回流线固定片2", "风管接头", "碳滑板"]
+    },
+]
